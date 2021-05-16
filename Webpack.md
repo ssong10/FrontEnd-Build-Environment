@@ -18,3 +18,14 @@
 
 loader 를 사용하여, 기본적으로 js 의 모듈러 역할 뿐만 아니라, Javascript, styleSheet, image 등을 모듈로 만들어서 하나의 파일로 묶어 줄 수 있다
 
+
+# module
+* 웹팩은 모든 파일을 모듈로 바라보게 됩니다.
+
+# plugins
+
+
+## Referrence
+[github webpack](https://github.com/webpack/webpack#install)
+[프론트엔드 개발 환경의 의해 : 웹팩](https://jeonghwan-kim.github.io/series/2019/12/10/frontend-dev-env-webpack-basic.html)
+[webpack 기본 이해하기](https://kschoi.github.io/webpack/webpack-basic/)

@@ -1,0 +1,10 @@
+body {
+  background-image:url(background.jpg)
+}
+#apeach {
+  width : 100px;
+  height: 100px;
+  background-image:url(apeach.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}

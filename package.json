@@ -3,16 +3,26 @@
   "version": "1.0.0",
   "description": "webpack 패키지와 웹팩 터미널 도구인 `webpack-cli` 를 설치한다.",
   "main": "index.js",
-  "dependencies": {
-    "webpack": "^5.37.0",
-    "webpack-cli": "^4.7.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/.bin/webpack",
-    "watch" : "node_modules/.bin/webpack --watch"
+    "watch": "node_modules/.bin/webpack --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "babel-loader": "^8.2.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
 }
